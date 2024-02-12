@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=COLORS_002EXAML/@EntryIndexedValue">Colors.xaml</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=FONTS_002EXAML/@EntryIndexedValue">Fonts.xaml</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=RESOURCE_005CRESOURCE_005CSTYLESCOLORS_002EXAML/@EntryIndexedValue">Resource\Resource\StylesColors.xaml</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=RESOURCE_005CSTYLES_005CRESOURCE_005CSTYLESCOLORS_002EXAML/@EntryIndexedValue">Resource\Styles\Resource\StylesColors.xaml</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=STYLES_005CSTYLES/@EntryIndexedValue">Styles\Styles</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=STYLES_005C_002EFONTS_002EXAML/@EntryIndexedValue">Styles\.Fonts.xaml</s:String></wpf:ResourceDictionary>

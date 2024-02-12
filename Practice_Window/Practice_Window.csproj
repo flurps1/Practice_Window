@@ -1,0 +1,127 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Ninject" Version="4.0.0-beta.1" />
+      <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\Logo\icon.ico" />
+      <None Remove="Images\Logo\logo.png" />
+      <None Remove="Images\Logo\logo-small.png" />
+      <None Remove="Images\Samples\rusty.jpg" />
+      <None Remove="Images\Backgrounds\emoji-background.png" />
+      <None Remove="Fonts\fontawesome-webfont.ttf" />
+      <None Remove="Fonts\Lato-Black.ttf" />
+      <None Remove="Fonts\Lato-BlackItalic.ttf" />
+      <None Remove="Fonts\Lato-Bold.ttf" />
+      <None Remove="Fonts\Lato-BoldItalic.ttf" />
+      <None Remove="Fonts\Lato-Hairline.ttf" />
+      <None Remove="Fonts\Lato-HairlineItalic.ttf" />
+      <None Remove="Fonts\Lato-Heavy.ttf" />
+      <None Remove="Fonts\Lato-HeavyItalic.ttf" />
+      <None Remove="Fonts\Lato-Italic.ttf" />
+      <None Remove="Fonts\Lato-Light.ttf" />
+      <None Remove="Fonts\Lato-LightItalic.ttf" />
+      <None Remove="Fonts\Lato-Medium.ttf" />
+      <None Remove="Fonts\Lato-MediumItalic.ttf" />
+      <None Remove="Fonts\Lato-Regular.ttf" />
+      <None Remove="Fonts\Lato-Semibold.ttf" />
+      <None Remove="Fonts\Lato-SemiboldItalic.ttf" />
+      <None Remove="Fonts\Lato-Thin.ttf" />
+      <None Remove="Fonts\Lato-ThinItalic.ttf" />
+      <Resource Include="Fonts\fontawesome-webfont.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Black.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-BlackItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Bold.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-BoldItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Hairline.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-HairlineItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Heavy.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-HeavyItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Italic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Light.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-LightItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Medium.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-MediumItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Regular.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Semibold.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-SemiboldItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-Thin.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Fonts\Lato-ThinItalic.ttf">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Images\Backgrounds\emoji-background.png" />
+      <Resource Include="Images\Logo\icon.ico" />
+      <Resource Include="Images\Logo\logo-small.png" />
+      <Resource Include="Images\Logo\logo.png" />
+      <Resource Include="Images\Samples\rusty.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Update="Pages\ChatPage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="Pages\RegisterPage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Practice_Window.Core\Practice_Window.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Window\" />
+    </ItemGroup>
+
+
+</Project>
